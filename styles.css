@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+    background: Black;
+    color: #f0f8ff;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    justify-content: flex-start; /* Aligns content to the left */
+    padding-left: 40px; /* Adds padding to push content inward */
+}
+
+.nasa-logo {
+    width: 100px; /* Make the logo larger */
+    height: auto;
+    opacity: 0.8; /* Makes the logo blend with the background */
+    margin-right: 40px; /* Space between logo and text */
+}
+
+.header-text {
+    margin-left: auto; /* Pushes the text to the right side */
+}
+
+.header-text h1 {
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+}
+
+.header-text p {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+/*//////////////////////////////////////////////////////////////////////////////*/
+.api-showcase {
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #2c2c2c;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.api-showcase:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.api-showcase h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.api-showcase p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.api-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* Style for DONKI section content */
+#donki-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+#donki-content li {
+    background-color: #333;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.expand-btn {
+    display: inline-block;
+    margin-top: 5px;
+    color: #a6e1fa;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.expand-btn:hover {
+    text-decoration: underline;
+}
+/* Style for DONKI table */
+#donki-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+#donki-table th, #donki-table td {
+    padding: 10px;
+    border: 1px solid #555;
+    text-align: left;
+}
+
+#donki-table th {
+    background-color: #444;
+    font-weight: bold;
+}
+
+#donki-table tr:nth-child(even) {
+    background-color: #2c2c2c;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 1em;
+    background-color: #222;
+    border-top: 1px solid #555;
+}
+
+footer a {
+    color: #a6e1fa;
+    text-decoration: none;
+}

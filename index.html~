@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore NASA’s APIs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Hero Section -->
+<header class="hero">
+    <div class="header-content">
+        <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" alt="NASA Logo" class="nasa-logo">
+        <div class="header-text">
+            <h1>Embark on a Journey through NASA’s Data</h1>
+            <p>Discover the vast universe through NASA's open data APIs</p>
+        </div>
+    </div>
+</header>
+
+<!-- API Showcase Sections -->
+<section class="api-showcase" id="apod">
+    <h2>Astronomy Picture of the Day (APOD)</h2>
+    <label for="apod-date">Choose a date:</label>
+    <input type="date" id="apod-date">
+    <div id="apod-content"></div>
+</section>
+
+<section class="api-showcase" id="neo">
+    <h2>Asteroids NeoWs</h2>
+    <p>Track near-Earth objects and understand potential threats from space.</p>
+    <div id="neo-content"></div>
+</section>
+
+<section class="api-showcase" id="donki">
+    <h2>DONKI - Space Weather</h2>
+    <p>Receive notifications about space weather events that impact our planet.</p>
+    <table id="donki-table">
+        <thead>
+        <tr>
+            <th>Message Type</th>
+            <th>Event Date</th>
+            <th>Summary</th>
+            <th>Details</th>
+            <th>Notes</th>
+        </tr>
+        </thead>
+        <tbody id="donki-tbody">
+        <!-- Table rows will be populated here by JavaScript -->
+        </tbody>
+    </table>
+</section>
+
+
+<!-- Footer -->
+<footer>
+    <p>Explore more at <a href="https://api.nasa.gov/" target="_blank">NASA Open APIs</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
